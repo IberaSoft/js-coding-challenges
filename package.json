@@ -1,0 +1,33 @@
+{
+  "name": "js-coding-challenges",
+  "version": "0.0.1",
+  "description": "JavaScript coding challenges for learning purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IberaSoft/js-coding-challenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IberaSoft/js-coding-challenges/issues"
+  },
+  "homepage": "https://github.com/IberaSoft/js-coding-challenges#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-html": "^6.0.3",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0"
+  }
+}
