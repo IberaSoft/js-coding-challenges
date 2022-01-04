@@ -2,33 +2,32 @@
   "name": "js-coding-challenges",
   "version": "0.0.1",
   "description": "JavaScript coding challenges for learning purposes",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IberaSoft/js-coding-challenges.git"
   },
-  "author": "",
+  "author": "IberaSoft",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/IberaSoft/js-coding-challenges/issues"
   },
   "homepage": "https://github.com/IberaSoft/js-coding-challenges#readme",
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "cssnano": "^4.1.10",
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-html": "^6.0.3",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.6",
-    "eslint-plugin-react-hooks": "^4.1.0",
-    "jest": "^26.4.2",
-    "prettier": "^2.1.1"
-  }
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "jest src/**/*.spec.ts",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@types/jest": "27.4.0",
+    "jest": "27.4.5",
+    "parcel-bundler": "1.12.5",
+    "ts-jest": "27.1.2",
+    "typescript": "4.5.4"
+  },
+  "keywords": [
+    "typescript",
+    "unit tests",
+    "jest"
+  ]
 }
